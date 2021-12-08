@@ -22,16 +22,16 @@ using namespace std;
 
 int main(int argc, char * argv[]) {
 
-    TApplication app("app", &argc, argv);
+    	TApplication app("app", &argc, argv);
 	char* electronpos = new char[150];
 	char* ionpos = new char[150];
 
 	
 	MediumMagboltz* gas = new MediumMagboltz();
-    gas->SetTemperature(293.15);                  // definindo temperatura em kelvin
-    gas->SetPressure(740.);                       // definindo a pressão em torr
-    gas->EnableDrift();                           // permitindo deriva no meio
-    gas->SetComposition("ar", 70., "co2", 30.);   // definindo mistura de argonio com co2 em 70:30
+    	gas->SetTemperature(293.15);                  // definindo temperatura em kelvin
+    	gas->SetPressure(740.);                       // definindo a pressão em torr
+    	gas->EnableDrift();                           // permitindo deriva no meio
+    	gas->SetComposition("ar", 70., "co2", 30.);   // definindo mistura de argonio com co2 em 70:30
 	//gas->SetMaxElectronEnergy(200.);
 	gas->EnableDebugging();
 	gas->Initialise();
