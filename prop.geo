@@ -1,6 +1,6 @@
 // Gmsh project created on Thu Jan 20 19:42:44 2022
 //+
-// contador de tentativas : 24
+// contador de tentativas : 28
 // unidades em milimetros
 ref = 4;
 r = 0.5;     //raio do fio
