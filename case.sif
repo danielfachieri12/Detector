@@ -4,14 +4,14 @@ Header
   Include Path ""
   Results Directory ""
 End
-
+! Nesse formato aqui o garfield tava lendo o .result. Copiei o formato do site do garfield nos exemplos do elmer/lem/gemcell.sif
 Simulation
   Coordinate System = Cartesian 3D
   Simulation Type = Steady state
   Steady State Max Iterations = 1
-  Output File = wtfield.result
+  Output File = prop.result
   Solver Input File = case.sif
-  Post File = wtfield.ep
+  Post File = prop.ep
 End
 
 Constants
@@ -93,7 +93,7 @@ End
 
 Initial Condition 1
   Name = "InitialCondition 1"
-  Potential = 1
+  Potential = 700
 End
 
 Boundary Condition 1
