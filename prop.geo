@@ -2,6 +2,7 @@
 //+
 // contador de tentativas : 28
 // unidades em milimetros
+// aqui eu tentei colocar o fio tambem declaram ele como um volume físico, então tem o volume do gás e o fio no meio pra poder colocar no dielectrics
 ref = 4;
 r = 0.5;     //raio do fio
 R = 33.5;  // raio da latinha
